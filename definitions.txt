@@ -1,0 +1,18 @@
+
+# for creating local packages
+# Why Use setup.py?
+# Makes your project installable.
+# Automatically handles dependencies.
+# Prepares your project for distribution.
+# Allows easy upload to PyPI.
+# Enables users to install your project via pip
+
+# openai: For using OpenAI APIs.
+# langchain: A library for building language model chains.
+# streamlit: For building web apps with Python.
+# python-dotenv: To load environment variables from a .env file.
+# PyPDF2: For working with PDF files.
+
+# packages=find_packages():
+
+# Automatically finds and includes all packages (directories with __init__.py files) in your project.
