@@ -8,7 +8,7 @@ from langchain.schema import LLMResult, Generation
 from typing import Optional, List, Any, Dict
 
 # Set up Google Gemini API Key
-os.environ['GOOGLE_API_KEY'] = "AIzaSyB1IKoHG7jYg7z3F5vr7Kq1keYkceggF4s"  # Replace with your Gemini API Key
+os.environ['GOOGLE_API_KEY'] = "API_KEY"  # Replace with your Gemini API Key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Corrected LangChain wrapper for Google Gemini
